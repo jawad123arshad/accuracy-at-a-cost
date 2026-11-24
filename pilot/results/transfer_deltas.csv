@@ -1,0 +1,7 @@
+arch,task,single_task_acc_mean,single_task_acc_std,multitask_acc_mean,multitask_acc_std,delta,p_value,significant_p<0.05
+bigru,classification,0.4401,0.0113,0.4436,0.0105,0.0035,0.7175,False
+bigru,verdict,0.6059,0.0279,0.6077,0.0108,0.0018,0.9245,False
+transformer,classification,0.6493,0.0183,0.6423,0.0054,-0.007,0.5835,False
+transformer,verdict,0.6345,0.0195,0.6545,0.0061,0.02,0.2122,False
+mamba,classification,0.7448,0.0287,0.7413,0.0105,-0.0034,0.8601,False
+mamba,verdict,0.6675,0.0157,0.6432,0.0183,-0.0243,0.1571,False

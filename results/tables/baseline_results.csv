@@ -1,0 +1,4 @@
+arch,mode,task,accuracy,macro_f1,weighted_f1,majority_baseline,lift_over_majority,n_features,pred_time_s,n_train_samples,n_test_samples
+TFIDF+LogReg,baseline,problem_cls,0.6355,0.6226,0.6322,0.0075,0.628,269,0.009,19526,4379
+TFIDF+LogReg,baseline,verdict,0.5223,0.2251,0.425,0.4999,0.0224,269,0.001,19526,4379
+TFIDF+LogReg,baseline,runtime_bucket,0.5618,0.5404,0.5426,0.3407,0.2211,269,0.001,19526,4379

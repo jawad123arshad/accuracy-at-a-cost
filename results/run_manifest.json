@@ -1,0 +1,80 @@
+{
+  "run_timestamp": "2026-09-02 01:25:35",
+  "python_version": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch_version": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 2060",
+  "numpy_version": "2.3.5",
+  "pandas_version": "2.3.3",
+  "sklearn_version": "1.7.2",
+  "scipy_version": "1.16.3",
+  "matplotlib_version": "3.10.6",
+  "config": {
+    "n_problems": 200,
+    "max_submissions_per_problem": 150,
+    "min_submissions_per_problem": 30,
+    "val_frac": 0.15,
+    "test_frac": 0.15,
+    "random_seed": 42,
+    "dedup_near_identical": true,
+    "seq_len_grid": [
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "seq_len_file": 512,
+    "max_vocab_size": 50000,
+    "min_token_freq": 5,
+    "embed_dim": 256,
+    "hidden_dim": 128,
+    "n_layers": 3,
+    "n_heads": 8,
+    "dropout": 0.1,
+    "batch_size": 64,
+    "max_epochs": 15,
+    "early_stop_patience": 5,
+    "lr": 0.0003,
+    "weight_decay": 1e-05,
+    "device": "cuda",
+    "n_seeds": 3,
+    "model_seeds": [
+      1,
+      2,
+      3
+    ],
+    "comparison_modes": [
+      "default_hparams",
+      "param_matched"
+    ],
+    "enable_energy_logging": true,
+    "balance_sampler_task": "verdict",
+    "seq_len_n_seeds": 3,
+    "max_code_tokens": 2000,
+    "sample_vocab_size": 4000,
+    "seed_split": 42,
+    "min_samples_per_split": 10,
+    "encoder_type": "Transformer"
+  },
+  "n_problems_selected": 200,
+  "n_submissions_final": 28315,
+  "vocab_size": 147,
+  "param_matched_hparams": {
+    "BiGRU": {
+      "hidden_dim": 128,
+      "embed_dim": 256,
+      "n_layers": 3,
+      "params": 889856,
+      "diff": 0.0
+    },
+    "Transformer": {
+      "hidden_dim": 64,
+      "embed_dim": 256,
+      "n_layers": 3,
+      "params": 892352,
+      "diff": 0.0028049482163406214
+    }
+  }
+}
